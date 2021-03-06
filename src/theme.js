@@ -53,7 +53,10 @@ const theme = createMuiTheme({
       // Name of the rule
       text: {
         // Some CSS
-        background: "linear-gradient(45deg, #0d7cda 50%, #bf21e8 100%)",
+        background: "#BE399E",
+background: "-webkit-linear-gradient(top left, #BE399E, #362671)",
+background: "moz-linear-gradient(top left, #BE399E, #362671)",
+background: "linear-gradient(to bottom right, #BE399E, #362671)",
         borderRadius: 3,
         border: 0,
         color: "white",
