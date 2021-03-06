@@ -22,13 +22,6 @@ function Footer() {
       <React.Fragment>
         <div className={classes.footer}>
           <Box mt={6} mb={3}>
-            <Image
-              src="/twitter.svg"
-              alt="twitter logo"
-              layout="intrinsic"
-              height={20}
-              width={92}
-            />
             <Grid
               container
               direction="row"
