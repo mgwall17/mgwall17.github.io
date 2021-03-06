@@ -1,0 +1,72 @@
+import {
+  Typography,
+  Box,
+  Grid,
+  Paper,
+  Divider,
+  Button,
+} from "@material-ui/core";
+import Image from "next/image";
+import WelcomeBanner from "../components/welcomeBanner";
+import Background from "./background.mdx";
+import Personnel from "./personnel.mdx";
+
+<WelcomeBanner />
+
+<Box mb={5}>
+<Grid container direction="row" spacing={6}  alignItems="bottom">
+<Grid item lg={4}>
+
+# What is iSamples?
+
+## Toward an Interdisciplinary Cyberinfrastructure for Material Samples
+
+<a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2004839" target="_blank">
+<Image
+  src="/shield.svg"
+  alt="shield"
+  layout="intrinsic"
+  height={20}
+  width={92}
+/>
+</a>
+<Typography variant="body1" color="textPrimary">
+
+The Internet of Samples (iSamples) is a multi-disciplinary and multi-institutional project funded by the National Science Foundation to design, develop, and promote service infrastructure to uniquely, consistently, and conveniently identify material samples, record metadata about them, and persistently link them to other samples and derived digital content, including images, data, and publications.
+
+</Typography>
+</Grid>
+<Grid item lg={4}>
+
+
+# Resources
+
+<Typography variant="body1" color="primary">
+
+- [Recording of project presentation at the 2020 SPNHC & ICOM NATHIST Conference](https://www.youtube.com/watch?v=eRUw5NMksFo&t=105s)
+
+- [Zenodo Community](https://zenodo.org/communities/isamples?page=1&size=20)
+
+- [Follow us on Twitter](https://twitter.com/isamplesorg)
+
+</Typography>
+
+</Grid>
+<Grid item lg={4}>
+
+# Objectives
+
+<Typography variant="body1" color="textPrimary">
+
+1. Design and develop iSamples infrastructure (iSamples in a Box and iSamples Central);
+2. Build four initial implementations of iSamples for adoption and use case testing (Open Context, GEOME, SESAR, and Smithsonian Institution);
+3. Conduct outreach and community engagement to developers, individual researchers, and international organizations concerned with material samples.
+
+</Typography>
+
+</Grid>
+</Grid>
+</Box>
+
+<Background />
+<Personnel />

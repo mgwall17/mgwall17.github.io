@@ -1,0 +1,60 @@
+import Image from "next/image";
+import { Grid, Box, Typography } from "@material-ui/core";
+import FaceIcon from '@material-ui/icons/Face';
+import Animation from "../components/PeopleAnimation";
+import Person1 from "../staff/Person1.mdx"
+import Person2 from "../staff/Person2.mdx"
+import Person3 from "../staff/Person3.mdx"
+import Person4 from "../staff/Person4.mdx"
+
+
+<Box mb={5}>
+<Grid
+  container
+  direction="row"
+  justify="center"
+  alignItems="center"
+  spacing={3}
+>
+
+<Grid item md={6}>
+<Animation />
+</Grid>
+<Grid item md={6}>
+
+# Principal Investigators
+
+</Grid>
+</Grid>
+
+<Grid
+  container
+  direction="row"
+  justify="center"
+  alignItems="center"
+  spacing={3}
+>
+  <Grid item md={3} sm={12} xs={12} align="center">
+    <FaceIcon fontSize="large" color="primary" />
+    
+<Person1 />
+
+  </Grid>
+  <Grid item md={3} sm={12} xs={12} align="center">
+    <FaceIcon fontSize="large" color="primary"  />
+
+<Person2 />
+
+  </Grid>
+  <Grid item md={3} sm={12} xs={12} align="center">
+<FaceIcon fontSize="large" color="primary" />
+    <Person3 />
+  </Grid>
+  <Grid item md={3} sm={12} xs={12} align="center">
+ <FaceIcon fontSize="large"  color="primary"  />
+    
+<Person4 />
+
+</Grid>
+</Grid>
+</Box>
