@@ -24,7 +24,7 @@ export default function Form() {
                 Loading…
               </iframe>
             <Image
-              src="/dataImage.svg"
+              src="/dataimage.svg"
               alt="laptop and lab samples"
               layout="intrinsic"
               height={400}
