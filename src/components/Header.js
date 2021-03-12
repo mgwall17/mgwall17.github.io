@@ -34,7 +34,7 @@ export default function Nav() {
           <Link href="/">
             <MenuItem>
               <Typography variant="h5" component="h1">
-                iSamples
+                iSamples | The Internet of Samples
               </Typography>
             </MenuItem>
           </Link>

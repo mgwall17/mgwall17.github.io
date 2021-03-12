@@ -12,24 +12,17 @@ export default function Form() {
           spacing={4}
         >
           <Grid item>
-              <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScq3DLbSh95jkqllq_NM_ayTcAEdszocyVw5Jz7LDnuaAv-2Q/viewform?embedded=true"
-                width="400"
-                height="600"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
-                backgroundCOlor="#ffff"
-              >
-                Loading…
-              </iframe>
-            <Image
-              src="/dataimage.svg"
-              alt="laptop and lab samples"
-              layout="intrinsic"
-              height={400}
-              width={400}
-            />
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScq3DLbSh95jkqllq_NM_ayTcAEdszocyVw5Jz7LDnuaAv-2Q/viewform?embedded=true"
+              width="400"
+              height="600"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              backgroundCOlor="#ffff"
+            >
+              Loading…
+            </iframe>
           </Grid>
         </Grid>
       </Box>

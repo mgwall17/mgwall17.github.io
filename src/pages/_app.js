@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <React.Fragment>
       <Head>
-        <title>iSamples</title>
+        <title>iSamples | The Internet of Samples</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
